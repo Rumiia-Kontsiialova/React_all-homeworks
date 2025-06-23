@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+    margin: 100px auto;
+}
+.firstInput,
+.secondInput {
+    display: block; 
+    float: none;
+    /* было исправлено в элементе input в Devtools
+    display: inline — это может заставить элемент вести себя как текст
+    float: left — это вытаскивает элемент из потока и заставляет его "прилипнуть" к левому краю. */
+    margin-top: 5px;
+    width: 100%;
+}
+.firstInputErrors,
+.secondInputErrors {
+    margin-top: 5px;
+    color: red;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    background: rgb(50, 97, 227);
+}

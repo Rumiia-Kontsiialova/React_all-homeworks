@@ -1,0 +1,25 @@
+.container {
+    background-color: rgb(145, 221, 145);
+    height: 80vh;
+    width: 30vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    color: rgb(28, 56, 28);
+}
+
+.image {
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+    margin: 40px 60px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.button {
+    border: none;
+    padding: 10px;
+}
