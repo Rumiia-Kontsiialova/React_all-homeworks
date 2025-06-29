@@ -1,0 +1,7 @@
+.item {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid gray;
+    max-width: 90%;
+    width: 100%;
+}
