@@ -1,0 +1,13 @@
+.list {
+    list-style-type: none;
+}
+
+.linkList {
+    text-decoration: none;
+    color: inherit; 
+    /* цвет будет наследоваться от родителя */
+}
+
+.linkList:hover {
+    color: orangered;
+}

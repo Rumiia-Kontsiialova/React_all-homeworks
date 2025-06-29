@@ -1,0 +1,14 @@
+.container {
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    background-color: rgba(28, 25, 239, 0.868);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+}
